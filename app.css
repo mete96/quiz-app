@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;1,200;1,300;1,400&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  background-color: rgb(66, 13, 66);
+}
+
+.container {
+  background-color: #fecd45;
+  border-radius: 14px;
+  box-shadow: 0 0 10px 5px #000000;
+  width: 600px;
+  max-width: 100%;
+  color: rgb(0, 0, 0);
+}
+
+.ulmenu {
+  list-style: none;
+  margin: 10px;
+  color: rgb(0, 0, 0);
+  padding: 10px;
+}
+
+.ulmenu li {
+  margin-top: 10px;
+  font-size: 20px;
+  background-color: rgb(28, 98, 179);
+  border: none;
+  border-radius: 14px;
+  margin-left: 20px;
+  padding: 10px;
+  color: #fff;
+  box-shadow: 0 0 4px 3px #000;
+  cursor: pointer;
+}
+
+.ulmenu li:hover {
+  background-color: rgb(60, 14, 133);
+  transition: 0.5s all;
+}
+
+.btn {
+  width: 100%;
+  background-color: #2568fb;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  font-size: 24px;
+}
+
+.btn:hover {
+  background-color: rgb(60, 14, 133);
+  transition: 0.5s all;
+}
+
+.header {
+  margin: 20px;
+}
+
+.new {
+  background-color: rgb(43, 18, 100);
+  padding: 20px 75px;
+  width: 400px;
+  text-align: center;
+  color: #fff;
+  border-radius: 14px;
+  box-shadow: 0 0 10px 3px #000;
+}
